@@ -36,6 +36,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.graphics.drawable.Drawable;
 
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 
@@ -157,6 +158,9 @@ public class PartsActivity extends SettingsDrawerActivity implements
 
         switchToFragment(fragmentClass, initialArgs, -1, mInitialTitle);
 
+        if (themeMode == 2) {
+           getActionBar().setHomeAsUpIndicator(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+        }
         getActionBar().setDisplayHomeAsUpEnabled(mHomeAsUp);
     }
 
