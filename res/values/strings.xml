@@ -116,6 +116,7 @@
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
 
     <!-- LiveDisplay -->
+    <string name="live_pref_title">Live Display</string>
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
@@ -510,7 +511,7 @@
         <![CDATA[<b>Total contributors:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
                  <b>Total commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>Last update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-                 
+
     <!-- Display : Rotation  -->
     <string name="accelerometer_title">Auto-rotate screen</string>
     <string name="display_rotation_title">Rotation settings</string>
